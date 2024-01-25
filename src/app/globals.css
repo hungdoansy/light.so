@@ -73,13 +73,17 @@
 
 body {
     color: rgb(var(--foreground-rgb));
-    background: #14171a;
+    background-color: #0a0a0b !important;
 }
 
 @layer utilities {
     .text-balance {
         text-wrap: balance;
     }
+}
+
+.font-clash {
+    font-family: ClashGrotesk-Semibold,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 .fill-contrast-high {
@@ -115,5 +119,13 @@ body {
 }
 
 .hover\:bg-bg-light:hover {
+    background-color: var(--bg-light);
+}
+
+.text-contrast-medium {
+    color: var(--contrast-medium);
+}
+
+.bg-bg-light:hover {
     background-color: var(--bg-light);
 }
