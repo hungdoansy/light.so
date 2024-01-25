@@ -94,14 +94,26 @@ body {
     background-color: var(--contrast-high);
 }
 
-.text-contrast-lower {
-    color: var(--contrast-lower);
-}
-
 .hover\:bg-contrast-medium:hover {
     background-color: var(--contrast-medium);
 }
 
 .hover\:text-contrast-high:hover {
     color: var(--contrast-high);
+}
+
+.text-contrast-lower {
+    color: var(--contrast-lower);
+}
+
+.text-bg-dark {
+    color: var(--bg-dark);
+}
+
+.bg-bg-darker {
+    background-color: var(--bg-darker);
+}
+
+.hover\:bg-bg-light:hover {
+    background-color: var(--bg-light);
 }
