@@ -74,16 +74,15 @@
 body {
     color: rgb(var(--foreground-rgb));
     background-color: #0a0a0b !important;
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 @layer utilities {
     .text-balance {
         text-wrap: balance;
     }
-}
-
-.font-clash {
-    font-family: ClashGrotesk-Semibold,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 .fill-contrast-high {

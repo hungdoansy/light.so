@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import { fontClash } from "@/fonts"
+
 const MetaverseExplorer = () => {
     return (
         <div className="relative h-full text-center">
@@ -271,10 +273,15 @@ const MetaverseExplorer = () => {
                             <noscript />
                         </span>
                     </div>
-                    <h1 className="mt-8 font-clash text-4xl font-bold text-bg-dark sm:text-5xl sm:tracking-tight lg:text-5xl xl:text-7xl">
+                    <h1
+                        className={[
+                            "mt-8 text-4xl font-bold text-bg-dark sm:text-5xl sm:tracking-tight lg:text-5xl xl:text-7xl",
+                            fontClash.className,
+                        ].join(" ")}
+                    >
                         The Metaverse Explorer
                     </h1>
-                    <p className="mx-auto mt-5 mb-12 max-w-xl text-xl text-contrast-lower lg:text-2xl">
+                    <p className="mx-auto mt-5 mb-12 max-w-xl text-xl text-contrast-lower lg:text-3xl">
                         Light enables users to discover connections that was not possible before.
                     </p>
                     <a

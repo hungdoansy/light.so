@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import localFont from "next/font/local"
-
-const fontClash = localFont({ src: "../fonts/ClashGrotesk-Semibold.woff2" })
+import { fontClash } from "@/fonts"
 
 const NewEra = () => {
     return (
