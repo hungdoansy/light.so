@@ -132,3 +132,7 @@ body {
 .border-contrast-lower {
     border-color: var(--contrast-lower);
 }
+
+.text-contrast-low {
+    color: var(--contrast-low);
+}

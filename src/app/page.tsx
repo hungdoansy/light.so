@@ -1,4 +1,5 @@
 import DoOrDoNot from "@/components/DoOrDoNot"
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import LightProtocol from "@/components/LightProtocol"
 import MetaverseExplorer from "@/components/MetaverseExplorer"
@@ -14,6 +15,7 @@ export default function Home() {
             <MetaverseTimeline />
             <LightProtocol />
             <DoOrDoNot />
+            <Footer />
         </>
     )
 }
